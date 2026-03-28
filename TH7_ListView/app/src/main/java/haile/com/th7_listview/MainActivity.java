@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         //B3.2 Gắn
         lvTinhThanhVN.setAdapter(adapterTinhThanhVN);
         //B3.3 lắng nghe và xử lý sự kiện user tương tác
-        
+
 
     }
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgAnhMinhHoa"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#FFC107" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingStart="10dp"
+        android:background="#FFC107"
+        >
+
+
+        <TextView
+            android:id="@+id/tvTenMonAn"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Món ăn thứ nhất"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tvDonGia"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="200000đ"
+
+            />
+        <TextView
+            android:id="@+id/tvMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Nội dung mô tả các món ăn."
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

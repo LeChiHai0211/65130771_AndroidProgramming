@@ -71,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="TÍNH TOÁN"
+            android:onClick="TinhChiSo"
             />
         <TextView
             android:layout_width="match_parent"
@@ -88,6 +89,7 @@
             android:textColorHint="#FF0000"
             android:gravity="center"
             android:hint="Chỉ số cơ thể của bạn ở đây!"
+            android:enabled="false"
             />
     </LinearLayout>
 

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TH10_Explicit_Intents">
         <activity
+            android:name=".ManHinhThu3"
+            android:exported="false" />
+        <activity
             android:name=".ManHinhThu2"
             android:exported="false" />
         <activity

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_welcom"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Welcom" />
+    <item
+        android:id="@+id/navigation_cau1"
+        android:icon="@android:drawable/ic_lock_idle_low_battery"
+        android:title="Cau1" />
+    <item
+        android:id="@+id/navigation_cau2"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Cau2" />
+    <item
+        android:id="@+id/navigation_cau3"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="Cau3" />
+    <item
+        android:id="@+id/navigation_cau4"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Cau4" />
+</menu>

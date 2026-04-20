@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@android:drawable/ic_lock_idle_low_battery"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/navigation_chucnang1"
+        android:icon="@android:drawable/ic_lock_idle_low_battery"
+        android:title="Chuc nang 1" />
+    <item
+        android:id="@+id/navigation_chucnang2"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Chuc nang 2" />
+    <item
+        android:id="@+id/navigation_chucnang3"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="Chuc nang 3" />
+    <item
+        android:id="@+id/navigation_chucnang4"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Chuc nang 4" />
+
+</menu>

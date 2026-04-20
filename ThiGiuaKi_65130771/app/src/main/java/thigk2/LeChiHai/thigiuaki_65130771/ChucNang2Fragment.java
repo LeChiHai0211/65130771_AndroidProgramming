@@ -7,6 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class ChucNang2Fragment extends Fragment {
 
@@ -14,20 +18,10 @@ public class ChucNang2Fragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ChucNang2Fragment.
-     */
-    // TODO: Rename and change types and number of parameters
+
     public static ChucNang2Fragment newInstance(String param1, String param2) {
         ChucNang2Fragment fragment = new ChucNang2Fragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
     }
@@ -35,16 +29,39 @@ public class ChucNang2Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+        ArrayList<String> dsTenTinhThanhVN;
+        dsTenTinhThanhVN = new ArrayList<String>(); //Tạo thể hiện cụ thể, xin mới
+        //Them du lieu o day (Dung ra phai doc du lieu tu nguon
+        dsTenTinhThanhVN.add("Hà Nội");
+        dsTenTinhThanhVN.add("Thành phố Hồ Chí Minh");
+        dsTenTinhThanhVN.add("Đà Nẵng");
+        dsTenTinhThanhVN.add("Khánh Hòa");
+        dsTenTinhThanhVN.add("Kiên Giang");
+        dsTenTinhThanhVN.add("Cần Thơ");
+        dsTenTinhThanhVN.add("Bình Dương");
+        dsTenTinhThanhVN.add("Bình Định");
+        dsTenTinhThanhVN.add("Bình Thuật");
+        dsTenTinhThanhVN.add("Lê Chí Hải");
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_chuc_nang2, container, false);
+        View viewCau2 = inflater.inflate(R.layout.fragment_chuc_nang2, container, false);
+        ArrayAdapter<String> adapterTinhThanhVN;
+        adapterTinhThanhVN = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,
+                dsTenTinhThanhVN);
+        // Bước 3: Gắn vào điều khiển hiển thị ListView
+        //B3.1 Tìm
+        ListView lvTinhThanhVN = findViewById(R.id.);
+        //B3.2 Gắn
+        lvTinhThanhVN.setAdapter(adapterTinhThanhVN);
+        //B3.3 lắng nghe và xử lý sự kiện user tương tác
+
+
+
+        return viewCau2;
     }
 }

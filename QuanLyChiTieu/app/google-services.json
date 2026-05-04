@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "283964388772",
+    "firebase_url": "https://thuchanh-lechihai-default-rtdb.firebaseio.com",
+    "project_id": "thuchanh-lechihai",
+    "storage_bucket": "thuchanh-lechihai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283964388772:android:b43e1a140d8c68a4ac7d31",
+        "android_client_info": {
+          "package_name": "thuchanh.lechihai.quanlychitieu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSqV1u-u8NvylRQoyAZiCtmWD4uV2IFw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
